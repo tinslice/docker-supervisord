@@ -1,0 +1,14 @@
+Adding services
+
+1. add service configuration to /etc/supervisord.d
+2. service configuration file name should have the extension 'conf'
+
+Example configuration 
+
+[program:my-app]
+user=root
+command=command-to-run.sh
+redirect_stderr=true
+stdout_logfile=/var/log/my-app.log
+autorestart=true
+startretries=3
