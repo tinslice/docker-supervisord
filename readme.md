@@ -2,6 +2,7 @@
 
 [![Docker Automated build](https://img.shields.io/docker/cloud/automated/tinslice/supervisord.svg?style=flat)](https://hub.docker.com/r/tinslice/supervisord/builds)
 [![Docker Build Status](https://img.shields.io/docker/cloud/build/tinslice/supervisord.svg?style=flat)](https://hub.docker.com/r/tinslice/supervisord/builds)
+[![Docker Pulls](https://img.shields.io/docker/pulls/tinslice/supervisord.svg?style=flat)](https://hub.docker.com/r/tinslice/supervisord/)
 [![license](https://img.shields.io/github/license/tinslice/docker-supervisord.svg)](https://github.com/tinslice/docker-supervisord)
 
 Docker image which allows for easy configuration of multiple services using [supervisord](http://supervisord.org/configuration.html).
