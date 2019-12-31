@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env sh
 
 # Set supervisord to output all logs to stdout
 if echo "$DEBUG" | grep -sqE "true|TRUE|y|Y|yes|YES|1"; then
